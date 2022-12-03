@@ -120,7 +120,7 @@ main > article p {
     font-family: var(--fonte-padrao);
 }
 
-main > article > div img {
+main > article > img {
     display: block;
     margin: auto;
     width: 100%;
