@@ -123,13 +123,47 @@ main > article p {
 main > article > picture img {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 100%;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
 }
 
 footer {
-    background-color: var(--cor2);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.411);
     font-family: var(--fonte-padrao);
+    font-size: 0.8em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer > p.final {
+    background-color: var(--cor2);
+}
+
+footer > picture img {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+footer > section a {
+    display: inline-block;
+}
+
+footer > section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    box-sizing: border-box;
+}
+
+footer > section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: .2s, border .2s;
 }
