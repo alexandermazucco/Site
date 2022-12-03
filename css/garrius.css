@@ -85,6 +85,10 @@ header > p {
     font-family: var(--fonte-padrao);
 }
 
+body {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor2), var(--cor2), var(--cor5), var(--cor5));
+}
+
 main {
     min-width: 280px;
     max-width: 1000px;
