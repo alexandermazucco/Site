@@ -2,6 +2,18 @@
 
 @media screen and (max-width: 768px) {
 
+    :root {
+        --cor0: #f9eb00;
+        --cor1: #a85640;
+        --cor2: #600000;
+        --cor3: #ffffff;
+        --cor4: #7d7d7d;
+        --cor5: #000000;
+
+        --fonte-padrao: 'Arial', Times, serif;
+        --fonte-principal: 'FalconsFont';
+    }
+
     ul#album-fotos {
         width: 90%;
         margin: 0 auto;
@@ -150,12 +162,47 @@
 
 @media screen and (min-width: 768px) {
 
+    :root {
+        --cor0: #f9eb00;
+        --cor1: #a85640;
+        --cor2: #600000;
+        --cor3: #ffffff;
+        --cor4: #7d7d7d;
+        --cor5: #000000;
+
+        --fonte-padrao: 'Arial', Times, serif;
+        --fonte-principal: 'FalconsFont';
+    }
+
+
+    main > section {
+        padding: 10px;
+        padding-bottom: 90px;
+        background-color: var(--cor3);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    main > section h1 {
+        text-align: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: var(--cor2);
+        color: var(--cor3);
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        font-family: var(--fonte-principal);
+        font-size: 1.1em;
+    }
+
     ul#album-fotos {
+        padding-top: 1%;
         width: 70%;
         margin: 0 auto;
         padding: 50px;
         overflow: hidden;
         list-style: none;
+        background-color: var(--cor5);
     }
 
     ul#album-fotos li {
