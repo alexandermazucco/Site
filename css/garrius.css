@@ -1,6 +1,6 @@
 @charset "uTF-8";
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     @font-face {
         font-family: 'FalconsFont';
@@ -135,6 +135,37 @@
         width: 100%;
         box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
     }
+
+    aside {
+        display: block;
+        margin: auto;
+        padding-top: 1%;
+        width: 95%;
+    }
+
+    aside h1 {
+        text-align: center;
+        padding-top: 3px;
+        margin-bottom: 2%;
+        background-color: var(--cor1);
+        color: var(--cor3);
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        font-family: var(--fonte-principal);
+        font-size: 1.1em;
+    }
+
+    #fotos {
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    #fotos img {
+        display: inline-block;
+        padding-right: 1%;
+        padding-bottom: 1%;
+    }
+
 
     div.video {
         background-color: var(--cor5);
@@ -362,7 +393,6 @@
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
         font-family: var(--fonte-principal);
         font-size: 1.5em;
-        
     }
 
     main > article p {
@@ -379,6 +409,36 @@
         margin: auto;
         width: 100%;
         box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
+    }
+
+    aside {
+        display: block;
+        margin: auto;
+        padding-top: 1%;
+        width: 95%;
+    }
+
+    aside h1 {
+        text-align: center;
+        padding-top: 1px;
+        margin-bottom: 1.5%;
+        background-color: var(--cor1);
+        color: var(--cor3);
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.411);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        font-family: var(--fonte-principal);
+        font-size: 1.5em;
+    }
+
+    #fotos {
+        display: inline-block;
+        margin-left: 6%;
+    }
+
+    #fotos img {
+        display: inline-block;
+        padding-right: 1%;
+        padding-bottom: 1%;
     }
 
     div.video {
