@@ -1,120 +1,297 @@
-@charset "UTF-8";
+@charset "uTF-8";
 
-ul#album-fotos {
-    width: 70%;
-    margin: 0 auto;
-    padding: 50px;
-    overflow: hidden;
-    list-style: none;
+@media screen and (max-width: 768px) {
+
+    ul#album-fotos {
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px;
+        overflow: hidden;
+        list-style: none;
+    }
+
+    ul#album-fotos li {
+        float: left;
+        width: 150px;
+        height: 200px;
+        margin: 5px;
+        border: 5px solid #f9eb00;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+        -webkit-transition: all 0.3s ease-in;
+    }
+
+    ul#album-fotos li p {
+        opacity: 1;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black;
+        background-color: rgba(0, 0, 0, 0.499);
+        line-height: 26px;
+        text-align: center;
+        font-size: 1.5em;
+        vertical-align: middle;
+        padding: 6px;
+    }
+
+    ul#album-fotos li:hover p {
+        opacity: 0;
+    }
+
+    ul#album-fotos li:hover {
+        -webkit-transform: scale(1.5);
+    }
+
+    ul#album-fotos li#foto01 {
+        background: url(../imagens/flyers/01\ flyer\ SH.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto01:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
+
+    ul#album-fotos li#foto02 {
+        background: url(../imagens/flyers/CM2010.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto02:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
+
+    ul#album-fotos li#foto03 {
+        background: url(../imagens/flyers/01\ Flyer\ RS.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
+
+    ul#album-fotos li#foto04 {
+        background: url(../imagens/flyers/01\ tribe\ flyer.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
+
+    ul#album-fotos li#foto05 {
+        background: url(../imagens/flyers/ErotikHard08012011.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto05:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 100%;
+    }
+
+    ul#album-fotos li#foto06 {
+        background: url(../imagens/flyers/22\ de\ Janeiro.JPG) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto06:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 44%;
+    }
+
+    ul#album-fotos li#foto07 {
+        background: url(../imagens/flyers/176225_196974430326811_1956155_o.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto07:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
+
+    ul#album-fotos li#foto08 {
+        background: url(../imagens/flyers/CrazyHardNight12022011.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto08:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 40%;
+    }
 }
 
-ul#album-fotos li {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 5px solid #f9eb00;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
-    -webkit-transition: all 0.3s ease-in;
-}
+@media screen and (min-width: 768px) {
 
-ul#album-fotos li p {
-    opacity: 1;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-    background-color: rgba(0, 0, 0, 0.499);
-    line-height: 47px;
-    text-align: center;
-    font-size: 1.5em;
-    vertical-align: middle;
-    padding: 10px;
-}
+    ul#album-fotos {
+        width: 70%;
+        margin: 0 auto;
+        padding: 50px;
+        overflow: hidden;
+        list-style: none;
+    }
 
-ul#album-fotos li:hover p {
-    opacity: 0;
-}
+    ul#album-fotos li {
+        float: left;
+        width: 150px;
+        height: 200px;
+        margin: 5px;
+        border: 5px solid #f9eb00;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+        -webkit-transition: all 0.3s ease-in;
+    }
 
-ul#album-fotos li:hover {
-    -webkit-transform: scale(1.5);
-}
+    ul#album-fotos li p {
+        opacity: 1;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black;
+        background-color: rgba(0, 0, 0, 0.499);
+        line-height: 26px;
+        text-align: center;
+        font-size: 1.5em;
+        vertical-align: middle;
+        padding: 6px;
+    }
 
-ul#album-fotos li#foto01 {
-    background: url(../imagens/flyers/01\ flyer\ SH.jpg) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li:hover p {
+        opacity: 0;
+    }
 
-ul#album-fotos li#foto01:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 20%;
-}
+    ul#album-fotos li:hover {
+        -webkit-transform: scale(1.5);
+    }
 
-ul#album-fotos li#foto02 {
-    background: url(../imagens/flyers/CM2010.jpg) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li#foto01 {
+        background: url(../imagens/flyers/01\ flyer\ SH.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
 
-ul#album-fotos li#foto02:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 20%;
-}
+    ul#album-fotos li#foto01:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 20%;
+    }
 
-ul#album-fotos li#foto03 {
-    background: url(../imagens/flyers/01\ Flyer\ RS.jpg) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li#foto02 {
+        background: url(../imagens/flyers/CM2010.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
 
-ul#album-fotos li#foto03:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 20%;
-}
+    ul#album-fotos li#foto02:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 20%;
+    }
 
-ul#album-fotos li#foto04 {
-    background: url(../imagens/flyers/01\ tribe\ flyer.jpg) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li#foto03 {
+        background: url(../imagens/flyers/01\ Flyer\ RS.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
 
-ul#album-fotos li#foto04:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 20%;
-}
+    ul#album-fotos li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 20%;
+    }
 
-ul#album-fotos li#foto05 {
-    background: url(../imagens/flyers/ErotikHard08012011.jpg) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li#foto04 {
+        background: url(../imagens/flyers/01\ tribe\ flyer.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
 
-ul#album-fotos li#foto05:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 50%;
-}
+    ul#album-fotos li#foto04:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 20%;
+    }
 
-ul#album-fotos li#foto06 {
-    background: url(../imagens/flyers/22\ de\ Janeiro.JPG) no-repeat;
-    background-position: 0% 100%;
-    background-size: 200px 300px;
-    background-color: white;
-}
+    ul#album-fotos li#foto05 {
+        background: url(../imagens/flyers/ErotikHard08012011.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
 
-ul#album-fotos li#foto06:hover {
-    background-position: 0px 0px;
-    background-size: 100%;
-    width: 25%;
+    ul#album-fotos li#foto05:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 50%;
+    }
+
+    ul#album-fotos li#foto06 {
+        background: url(../imagens/flyers/22\ de\ Janeiro.JPG) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto06:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 25%;
+    }
+
+    ul#album-fotos li#foto07 {
+        background: url(../imagens/flyers/176225_196974430326811_1956155_o.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto07:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 21%;
+    }
+
+    ul#album-fotos li#foto08 {
+        background: url(../imagens/flyers/CrazyHardNight12022011.jpg) no-repeat;
+        background-position: 0% 100%;
+        background-size: 200px 300px;
+        background-color: white;
+    }
+
+    ul#album-fotos li#foto08:hover {
+        background-position: 0px 0px;
+        background-size: 100%;
+        width: 22%;
+    }
 }
