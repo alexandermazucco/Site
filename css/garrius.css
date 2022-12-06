@@ -166,17 +166,17 @@
         padding-bottom: 1%;
     }
 
-
     div.video {
         background-color: var(--cor5);
-        margin: 0px -20px 30px -20px;
         padding: 20px;
-        padding-bottom: 56.5%;
+        padding-top: 0%;
+        padding-bottom: 55%;
         position: relative;
     }
 
     div.video > iframe {
         position: absolute;
+        margin: auto;
         top: 1%;
         left: 5%;
         width: 90%;
@@ -464,14 +464,15 @@
 
     div.video {
         background-color: var(--cor5);
-        margin: 0px -20px 30px -20px;
         padding: 20px;
-        padding-bottom: 56.5%;
+        padding-top: 0%;
+        padding-bottom: 55%;
         position: relative;
     }
 
     div.video > iframe {
         position: absolute;
+        margin: auto;
         top: 1%;
         left: 5%;
         width: 90%;
