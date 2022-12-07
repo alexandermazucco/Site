@@ -3,23 +3,25 @@
 
 <style>
 
-    main {
-        width: 80%;
-    }
-
-    div#stripnhard {
-        margin: auto;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-bottom: 5%;
-    }
-
-    div#stripnhard  img {
-        display: inline-block;
-        padding: 5px;
-        width: 235px;
-        height: 350px;
-    }
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.gallery {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s;
+}
+.gallery img {
+    width: 350px;
+    height: auto;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
 </style>
 
 <head>
@@ -27,7 +29,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/garrius.css">
+    <link rel="stylesheet" href="imagens/snh/css/lightbox.css" type="text/css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="imagens/snh/js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
     <title>Garrius website</title>
   </head>
   <body> 
@@ -44,15 +48,15 @@
       <p>Website oficial</p>
     </header>
     <main>
-      <div id="stripnhard">
-        <img src="imagens/snh/01 flyer SH.jpg" alt="">
-        <img src="imagens/snh/OgAAABtHG33MlECRirpD9E4HZ0Sgy-ZRXudeF7lRcN0kEBMXD0kzPDgnchJuaN5Wzw0cCKgJ1WKse0hZS6CkAFDRq_kAm1T1UO_zjh8xyCaMA4Nqp3quXGEDpwH9.jpg" alt="">
-        <img src="imagens/snh/OgAAAIikOJEUUZQDrpkKC3YgFj83GfCHuzoklnEfWRKeNxlVj96iffcOoCKnta2bpJP5sm-25hX5xbStKvUqHbxcE34Am1T1UO190Grm9Jk6MAKFrE_e4u2dxKak.jpg" alt="">
-        <img src="imagens/snh/OgAAAK-GVQdxMrxlxinPL6Q2Qf6uM8uJ9cVJudwYxvqKz5zY_w6gH4d61ZwS6KccKKtl9oTJmf96gLEQcSGr-buRxlsAm1T1UFmp-gxcwDqIbnJVabbloei7C0Xx.jpg" alt="">
-        <img src="imagens/snh/OgAAAKi_JEsUliKaeZP0uV7YLVld-3A4cSWYCFyr4aS7LgINNLG7KgO1phA33_hS4KagLOx3hfHb6o5EvChFSQi9g0sAm1T1UPHKHCVD_PIatKxtxWTwA23SvYBw.jpg" alt="">
-        <img src="imagens/snh/OgAAANj-PQFVxDdIAr288J8GCKrO0qu2D89xUCRm4jwpJdmUTbBs8cbi0dbL1a_rCZfR-nR0Y55_qGjTo2P6_1eZcVYAm1T1UIbC3u1cY7hb97pMpxaUsMYTmDEk.jpg" alt="">
-        <img src="imagens/snh/OgAAAON4H7m6skQ6iyAkFEObtGOK1jBejd0JAztzuIwJ7B0I_jUiE1VHVGUcHt4BdDK2DX9ulDdSMhkWQy9vym4IfagAm1T1UBzX01m7HeVp660Fc9KEPfYeaIOP.jpg" alt="">
-        <img src="imagens/snh/OgAAAOW99iWdlSYK2HZr5LBu0ioEOFbQFNVJQjVF3vxM6Uq8txZCrng7IRRt2bxVPrnAcO7Lb9NRAZDzIH3ZeNU6rRYAm1T1UPlwfMSEMiWU5CzLsUcBX3JRjk_0.jpg" alt="">
+      <div class="gallery">
+        <a href="imagens/snh/img01.jpg" data-lightbox='mygallery'><img src="imagens/snh/img01.jpg"></a>
+        <a href="imagens/snh/img02.jpg" data-lightbox='mygallery'><img src="imagens/snh/img02.jpg"></a>
+        <a href="imagens/snh/img03.jpg" data-lightbox='mygallery'><img src="imagens/snh/img03.jpg"></a>
+        <a href="imagens/snh/img04.jpg" data-lightbox='mygallery'><img src="imagens/snh/img04.jpg"></a>
+        <a href="imagens/snh/img05.jpg" data-lightbox='mygallery'><img src="imagens/snh/img05.jpg"></a>
+        <a href="imagens/snh/img06.jpg" data-lightbox='mygallery'><img src="imagens/snh/img06.jpg"></a>
+        <a href="imagens/snh/img07.jpg" data-lightbox='mygallery'><img src="imagens/snh/img07.jpg"></a>
+        <a href="imagens/snh/img08.jpg" data-lightbox='mygallery'><img src="imagens/snh/img08.jpg"></a>
       </div>
     </main>
     <footer>
